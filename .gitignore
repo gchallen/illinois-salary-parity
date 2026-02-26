@@ -1,0 +1,24 @@
+# Downloaded source data (can be re-fetched from Gray Book website)
+*.docx
+uiuc-graybook.html
+
+# Temporary extraction directory
+gray-book-extract/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+*.egg-info/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
