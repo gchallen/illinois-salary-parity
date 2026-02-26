@@ -5,15 +5,9 @@ uiuc-graybook.html
 # Temporary extraction directory
 gray-book-extract/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-.venv/
-*.egg-info/
+# Node/Bun
+node_modules/
+bun.lock
 
 # IDE/Editor
 .vscode/
@@ -22,3 +16,6 @@ venv/
 *.swo
 *~
 .DS_Store
+
+# Generated screenshots
+screenshot.png

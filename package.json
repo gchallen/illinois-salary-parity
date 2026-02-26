@@ -1,0 +1,21 @@
+{
+  "name": "illinois-salary-parity",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "parse": "bun run src/parse-graybook.ts",
+    "analyze": "bun run src/analyze-parity.ts",
+    "screenshot": "bun run src/screenshot.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.2",
+    "puppeteer": "^24.37.5"
+  }
+}

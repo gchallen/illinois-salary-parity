@@ -1,192 +1,192 @@
 Name,Faculty Type,Rank,Full Time,Joint Appt,Present Salary,Proposed Salary,FTE,Primary Title
-"Abdelzaher, Tarek",tenure_track,full,True,False,233376.0,235709.76,1.0,PROF
-"Adve, Sarita V",tenure_track,full,True,False,244800.0,247248.0,1.0,PROF
-"Adve, Vikram Sadanand",tenure_track,full,True,False,244800.0,247248.0,1.0,PROF
-"Agarwal, Saksham",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Alabi, Daniel Gbenga",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Alagappan, Ramnatthan",tenure_track,assistant,True,False,143208.0,146788.2,1.0,ASST PROF
-"Alawini, Abdussalam Alhadi M",teaching,associate,True,False,160050.0,165283.25,1.0,TCH ASSOC PROF
-"Amato, Nancy Marie",tenure_track,full,True,False,350762.0,355809.62,1.0,PROF
-"Anastasio, Mark A",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Angrave, Lawrence Christopher",teaching,full,True,False,180000.0,184500.0,1.0,TCH PROF
-"August, Tal Micah",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Bailey, Brian P",tenure_track,full,True,False,212160.0,214281.6,1.0,PROF
-"Banerjee, Arindam",tenure_track,full,True,False,212160.0,214281.6,1.0,PROF
-"Bashir, Masooda N",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Beckman, Mattox Alan",teaching,associate,True,False,160138.55,165783.01,1.0,TCH ASSOC PROF
-"Bhat, Suma Pallathadka",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Blake, Catherine Lesley",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Borisov, Nikita",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Bretl, Timothy Wolfe",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Brunner, Robert J",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Caesar, Matthew Chapman",tenure_track,full,True,False,196248.0,198210.48,1.0,PROF
-"Challen, Geoffrey Werner",teaching,full,True,False,175424.0,179999.6,1.0,TCH PROF
-"Chan, Timothy Moon-Yew",tenure_track,full,True,False,225366.0,227619.66,1.0,PROF
-"Chandrasekaran, Karthekeyan",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Chandrasekaran, Varun",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Chandrasekharan, Eshwar",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Chang, Kevin Chenchuan",tenure_track,full,True,False,176310.0,180000.1,1.0,PROF
-"Chekuri, Chandra Sekhar",tenure_track,full,True,False,222768.0,224995.68,1.0,PROF
-"Chen, Deming",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Chitambar, Eric Anil",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Chowdhary, Girish",tenure_track,associate,False,True,42146.0,42567.46,0.25,ASSOC PROF
-"Cobb, Camille Morgan",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Cunningham, Kathryn Irene",tenure_track,assistant,True,False,143208.0,146788.2,1.0,ASST PROF
-"Cunningham, Ryan Matthew",teaching,senior_lecturer,True,False,106080.0,125000.0,1.0,SR. LECTURER
-"Dalpiaz, David M",teaching,associate,True,False,160050.0,165283.25,1.0,TCH ASSOC PROF
-"Do, Minh N",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Driggs-Campbell, Katherine Rose",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Dullerud, Geir E",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"El-Kebir, Mohammed",tenure_track,associate,True,False,174500.0,176245.0,1.0,ASSOC PROF
-"Erickson, Jeff G",tenure_track,full,True,False,217464.0,219638.64,1.0,PROF
-"Evans, Graham Carl",teaching,assistant,True,False,146390.4,150050.16,1.0,TCH ASST PROF
-"Fagen-Ulmschneider, Wade A",teaching,full,True,False,176000.0,180400.0,1.0,TCH PROF
-"Farivar, Reza",clinical,associate,False,True,80000.0,82000.0,0.5,CLINICAL ASSOC PROF
-"Fischer, Paul",tenure_track,full,False,True,170754.0,172461.54,0.75,PROF
-"Fleck, Margaret M",teaching,full,True,False,180000.0,184500.0,1.0,TEACHING PROF
-"Forbes, Michael A",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Forsyth, David Alexander",tenure_track,full,True,False,265838.0,268496.38,1.0,PROF
-"Fowler, Maxwell Louis",teaching,assistant,True,False,140000.0,143500.0,1.0,TEACHING ASST PROF
-"Ganesan, Aishwarya",tenure_track,assistant,True,False,143208.0,146788.2,1.0,ASST PROF
-"Garg, Jugal",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Gertner, Yael",teaching,associate,True,False,145329.6,164999.84,1.0,TCH ASSOC PROF
-"Ghose, Saugata",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Godfrey, Philip B",tenure_track,full,True,False,206856.0,208924.56,1.0,PROF
-"Golparvar Fard, Mani",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Granha Jeronimo, Fernando",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Gropp, William D",tenure_track,full,True,False,301451.0,305972.77,1.0,PROF
-"Grosser, Benjamin Adam",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Guan, Kaiyu",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Gui, Liangyan",research,assistant,True,False,145329.6,145329.6,1.0,RES ASST PROF
-"Gunter, Carl",tenure_track,full,True,False,243984.0,246423.84,1.0,PROF
-"Gunter, Elsa",teaching,senior_lecturer,True,False,189060.0,193599.0,1.0,SR LECTURER
-"Guo, Yue",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Gupta, Indranil",tenure_track,full,True,False,212160.0,214281.6,1.0,PROF
-"Gupta, Saurabh",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Hakkani Tur, Dilek",tenure_track,full,True,False,244800.0,247248.0,1.0,PROF
-"Han, Jiawei",tenure_track,full,True,False,265838.0,268496.38,1.0,PROF
-"Har-Peled, Sariel",tenure_track,full,True,False,217464.0,219638.64,1.0,PROF
-"Hart, John C",tenure_track,full,True,False,209845.0,211943.45,1.0,PROF
-"Hasegawa-Johnson, Mark Allan",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Hauser, Kristoffer Karl",tenure_track,full,True,False,208845.0,210933.45,1.0,PROF
-"He, Jing Rui",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Heath, David Anthony",tenure_track,assistant,True,False,143208.0,146788.2,1.0,ASST PROF
-"Herman, Geoffrey Lindsay",teaching,full,True,False,175424.0,179999.6,1.0,TCH PROF
-"Hockenmaier, Julia Constanze",tenure_track,full,True,False,207346.0,209419.46,1.0,PROF
-"Hoiem, Derek W",tenure_track,full,True,False,207346.0,209419.46,1.0,PROF
-"Hu, Yih-Chun",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Huang, Jian",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Huang, Yun",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Iyer, Ravishankar K",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Jabbarvand Behrouz, Reyhaneh",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Jacobson, Sheldon Howard",tenure_track,full,True,False,221357.0,223570.57,1.0,PROF
-"Ji, Heng",tenure_track,full,True,False,222233.0,226677.66,1.0,PROF
-"Jiang, Nan",tenure_track,associate,True,False,175000.0,176750.0,1.0,ASSOC PROF
-"Kang, Daniel",tenure_track,assistant,True,False,141200.0,144730.0,1.0,ASST PROF
-"Katz, Daniel S",research,associate,False,True,0.0,0.0,0.0,RES ASSOC PROF
-"Khurana, Dakshita",tenure_track,associate,True,False,175000.0,176750.0,1.0,ASSOC PROF
-"Kim, Minje",tenure_track,associate,True,False,173400.0,175134.0,1.0,ASSOC PROF
-"Kim, Nam Sung",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Kindratenko, Volodymyr",research,associate,False,True,0.0,0.0,0.0,RES ASSOC PROF
-"Kloeckner, Andreas Paul Eberhard",tenure_track,associate,True,False,176000.0,177760.0,1.0,ASSOC PROF
-"Kramer, William T",research,full,False,True,59630.71,60227.02,0.2,RES PROF
-"Kravets, Robin Hillary",tenure_track,full,True,False,206856.0,208924.56,1.0,PROF
-"Kumar, Rakesh",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Kumar, Ranjitha",tenure_track,associate,True,False,175500.0,177255.0,1.0,ASSOC PROF
-"Lai, Fan",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Lane, H Chad",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Lavalle, Steven M",tenure_track,full,False,True,17715.0,18000.15,0.1,PROF
-"Lazebnik, Svetlana",tenure_track,full,True,False,206856.0,208924.56,1.0,PROF
-"Levchenko, Kirill Igorevich",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Lewis, Colleen Marie",tenure_track,associate,True,False,175500.0,177255.0,1.0,ASSOC PROF
-"Li, Bo",tenure_track,associate,True,False,153600.0,155136.0,1.0,ASSOC PROF
-"Liu, Ge",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Liu, Hongye",teaching,assistant,True,False,145329.6,148962.84,1.0,TCH ASST PROF
-"Liu, Yaoyao",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Lourentzou, Ismini",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Ludaescher, Bertram",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Lumetta, Steven Sam",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Luo, Ning",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Ma, Jiaqi",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Marinov, Darko",tenure_track,full,True,False,212670.0,214796.7,1.0,PROF
-"Mashfiqui Rabbi Shuvo, Mohammod",research,assistant,True,False,145000.0,145000.0,1.0,RES ASST PROF
-"Mehta, Ruta",tenure_track,associate,True,False,175000.0,176750.0,1.0,ASSOC PROF
-"Mendis, Thirimadura Charith Yasendra",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Meseguer, Jose",tenure_track,full,True,False,230634.0,232940.34,1.0,PROF
-"Milenkovic, Olgica",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Misailovic, Sasa",tenure_track,associate,True,False,175250.0,177002.5,1.0,ASSOC PROF
-"Mitra, Sayan",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Mittal, Radhika",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Moses, William Steven",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Nahrstedt, Klara",tenure_track,full,True,False,289224.0,297900.0,1.0,PROF
-"Ng, Yee Man",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Nicol, David Malcolm",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Nowak, Michael",teaching,assistant,True,False,145329.6,148962.84,1.0,TCH ASST PROF
-"Olson, Luke",tenure_track,full,True,False,212160.0,214281.6,1.0,PROF
-"Park, Yongjoo",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Parthasarathy, Madhusudan",tenure_track,full,True,False,201552.0,203567.52,1.0,PROF
-"Peng, Hao",tenure_track,assistant,True,False,141200.0,144730.0,1.0,ASST PROF
-"Raginsky, Maxim",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Rauchwerger, Lawrence",tenure_track,full,True,False,229577.0,231872.77,1.0,PROF
-"Ray Chaudhury, Bhaskar",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Rehg, James Matthew",tenure_track,full,False,True,186966.0,188835.66,0.75,PROF
-"Reid, John F",research,full,False,True,121992.0,125041.8,0.5,RES PROF
-"Ren, Ling",tenure_track,associate,True,False,146390.0,164999.9,1.0,ASSOC PROF
-"Ringer, Talia Lily",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Robinson, Gene E",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Robles Granda, Pablo D",teaching,assistant,True,False,140100.0,143602.5,1.0,TEACHING ASST PROF
-"Rosu, Grigore",tenure_track,full,True,False,206856.0,208924.56,1.0,PROF
-"Roy Choudhury, Romit",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Saha, Koustuv",tenure_track,assistant,True,False,142800.0,146370.0,1.0,ASST PROF
-"Schatz, Jule",teaching,assistant,True,False,140100.0,143602.5,1.0,TCH ASST PROF
-"Schwing, Alexander Gerhard",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Seo, JooYoung",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Sha, Lui Raymond",tenure_track,full,True,False,265200.0,267852.0,1.0,PROF
-"Shaffer, Eric Gene",teaching,associate,True,False,161241.6,165999.64,1.0,TCH ASSOC PROF
-"Shomorony, Ilan",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Shultz, Craig Daniel",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Silva, Mariana Teixeira",teaching,associate,True,False,161241.6,165999.64,1.0,TCH ASSOC PROF
-"Singh, Gagandeep",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Sinha, Makrand",tenure_track,assistant,True,False,141200.0,144730.0,1.0,ASST PROF
-"Solomon, Brad R",teaching,assistant,True,False,145329.6,148962.84,1.0,TCH ASST PROF
-"Solomonik, Edgar Vadimovich",tenure_track,associate,True,False,175250.01,177002.51,1.0,ASSOC PROF
-"Soltani, Ella",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Srikant, Rayadurgam",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Sterman, Sarah Gimbert",research,assistant,True,False,143208.0,146788.2,1.0,RES ASST PROF
-"Sultana, Sharifa",tenure_track,assistant,True,False,141200.0,144730.0,1.0,ASST PROF
-"Sun, Jimeng",tenure_track,full,False,True,146762.0,148229.62,0.67,PROF
-"Sundaram, Hari",tenure_track,full,True,False,196248.0,198210.48,1.0,PROF
-"Tahboub, Ruby",teaching,assistant,True,False,143208.0,146788.2,1.0,TCH ASST PROF
-"Tissenbaum, Michael Benjamin",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Tong, Hanghang",tenure_track,full,True,False,190000.0,191900.0,1.0,PROF
-"Torrellas, Josep",tenure_track,full,True,False,250000.0,252500.0,1.0,PROF
-"Tur, Gokhan",research,full,True,False,242400.0,248460.0,1.0,RES PROF
-"Twidale, Michael Bernard",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Tychonievich, Luther A",teaching,associate,True,False,164424.0,168534.6,1.0,TCH ASSOC PROF
-"Varshney, Lav R",tenure_track,associate,False,True,0.0,0.0,0.0,ASSOC PROF
-"Vasisht, Deepak",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Viswanathan, Mahesh",tenure_track,full,True,False,221700.0,223842.0,1.0,PROF
-"Vlasov, Yurii A",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Wang, Dong",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Wang, Gang",tenure_track,associate,True,False,175000.0,176750.0,1.0,ASSOC PROF
-"Wang, Shaowen",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Wang, Shenlong",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Wang, Yang",tenure_track,full,False,True,0.0,0.0,0.0,PROF
-"Wang, Yuxiong",tenure_track,assistant,True,False,145330.0,148963.25,1.0,ASST PROF
-"Warnow, Tandy",tenure_track,full,True,False,273338.0,275996.38,1.0,PROF
-"Williams, Tiffani L",teaching,full,True,False,196560.0,201099.0,1.0,TCH PROF
-"Woodley, Michael Joseph",clinical,assistant,True,False,90168.0,92422.2,1.0,CLIN ASST PROF
-"Wooldridge, Abigail",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Xu, Tianyin",tenure_track,associate,True,False,147451.0,164999.51,1.0,ASSOC PROF
-"Xu, Yunzong",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Yan, Yu",tenure_track,assistant,True,False,150000.0,151500.0,1.0,ASST PROF
-"You, Jiaxuan",tenure_track,assistant,True,False,140000.0,143500.0,1.0,ASST PROF
-"Yuan, Wenzhen",tenure_track,assistant,True,False,145860.0,149506.5,1.0,ASST PROF
-"Yuile, Adam Bates",tenure_track,associate,True,False,175250.0,177002.5,1.0,ASSOC PROF
-"Zhai, Chengxiang",tenure_track,full,True,False,223575.0,229981.75,1.0,PROF
-"Zhang, Lingming",tenure_track,associate,True,False,175500.0,177255.0,1.0,ASSOC PROF
-"Zhang, Minjia",tenure_track,assistant,True,False,147900.0,151597.5,1.0,ASST PROF
-"Zhang, Tong",tenure_track,full,True,False,244800.0,247248.0,1.0,PROF
-"Zhang, Yupeng",tenure_track,assistant,False,True,0.0,0.0,0.0,ASST PROF
-"Zhao, Han",tenure_track,assistant,True,False,144269.0,147875.73,1.0,ASST PROF
-"Zilles, Craig",tenure_track,full,True,False,196248.0,198210.48,1.0,PROF
+"Abdelzaher, Tarek",tenure_track,full,true,false,233376,235709.76,1,"PROF"
+"Adve, Sarita V",tenure_track,full,true,false,244800,247248,1,"PROF"
+"Adve, Vikram Sadanand",tenure_track,full,true,false,244800,247248,1,"PROF"
+"Agarwal, Saksham",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Alabi, Daniel Gbenga",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Alagappan, Ramnatthan",tenure_track,assistant,true,false,143208,146788.2,1,"ASST PROF"
+"Alawini, Abdussalam Alhadi M",teaching,associate,true,false,160050,165283.25,1,"TCH ASSOC PROF"
+"Amato, Nancy Marie",tenure_track,full,true,false,350762,355809.62,1,"PROF"
+"Anastasio, Mark A",tenure_track,full,false,true,0,0,0,"PROF"
+"Angrave, Lawrence Christopher",teaching,full,true,false,180000,184500,1,"TCH PROF"
+"August, Tal Micah",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Bailey, Brian P",tenure_track,full,true,false,212160,214281.6,1,"PROF"
+"Banerjee, Arindam",tenure_track,full,true,false,212160,214281.6,1,"PROF"
+"Bashir, Masooda N",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Beckman, Mattox Alan",teaching,associate,true,false,160138.55,165783.01,1,"TCH ASSOC PROF"
+"Bhat, Suma Pallathadka",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Blake, Catherine Lesley",tenure_track,full,false,true,0,0,0,"PROF"
+"Borisov, Nikita",tenure_track,full,false,true,0,0,0,"PROF"
+"Bretl, Timothy Wolfe",tenure_track,full,false,true,0,0,0,"PROF"
+"Brunner, Robert J",tenure_track,full,false,true,0,0,0,"PROF"
+"Caesar, Matthew Chapman",tenure_track,full,true,false,196248,198210.48,1,"PROF"
+"Challen, Geoffrey Werner",teaching,full,true,false,175424,179999.6,1,"TCH PROF"
+"Chan, Timothy Moon-Yew",tenure_track,full,true,false,225366,227619.66,1,"PROF"
+"Chandrasekaran, Karthekeyan",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Chandrasekaran, Varun",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Chandrasekharan, Eshwar",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Chang, Kevin Chenchuan",tenure_track,full,true,false,176310,180000.1,1,"PROF"
+"Chekuri, Chandra Sekhar",tenure_track,full,true,false,222768,224995.68,1,"PROF"
+"Chen, Deming",tenure_track,full,false,true,0,0,0,"PROF"
+"Chitambar, Eric Anil",tenure_track,full,false,true,0,0,0,"PROF"
+"Chowdhary, Girish",tenure_track,associate,false,true,42146,42567.46,0.25,"ASSOC PROF"
+"Cobb, Camille Morgan",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Cunningham, Kathryn Irene",tenure_track,assistant,true,false,143208,146788.2,1,"ASST PROF"
+"Cunningham, Ryan Matthew",teaching,senior_lecturer,true,false,106080,125000,1,"SR. LECTURER"
+"Dalpiaz, David M",teaching,associate,true,false,160050,165283.25,1,"TCH ASSOC PROF"
+"Do, Minh N",tenure_track,full,false,true,0,0,0,"PROF"
+"Driggs-Campbell, Katherine Rose",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Dullerud, Geir E",tenure_track,full,false,true,0,0,0,"PROF"
+"El-Kebir, Mohammed",tenure_track,associate,true,false,174500,176245,1,"ASSOC PROF"
+"Erickson, Jeff G",tenure_track,full,true,false,217464,219638.64,1,"PROF"
+"Evans, Graham Carl",teaching,assistant,true,false,146390.4,150050.16,1,"TCH ASST PROF"
+"Fagen-Ulmschneider, Wade A",teaching,full,true,false,176000,180400,1,"TCH PROF"
+"Farivar, Reza",clinical,associate,false,true,80000,82000,0.5,"CLINICAL ASSOC PROF"
+"Fischer, Paul",tenure_track,full,false,true,170754,172461.54,0.75,"PROF"
+"Fleck, Margaret M",teaching,full,true,false,180000,184500,1,"TEACHING PROF"
+"Forbes, Michael A",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Forsyth, David Alexander",tenure_track,full,true,false,265838,268496.38,1,"PROF"
+"Fowler, Maxwell Louis",teaching,assistant,true,false,140000,143500,1,"TEACHING ASST PROF"
+"Ganesan, Aishwarya",tenure_track,assistant,true,false,143208,146788.2,1,"ASST PROF"
+"Garg, Jugal",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Gertner, Yael",teaching,associate,true,false,145329.6,164999.84,1,"TCH ASSOC PROF"
+"Ghose, Saugata",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Godfrey, Philip B",tenure_track,full,true,false,206856,208924.56,1,"PROF"
+"Golparvar Fard, Mani",tenure_track,full,false,true,0,0,0,"PROF"
+"Granha Jeronimo, Fernando",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Gropp, William D",tenure_track,full,true,false,301451,305972.77,1,"PROF"
+"Grosser, Benjamin Adam",tenure_track,full,false,true,0,0,0,"PROF"
+"Guan, Kaiyu",tenure_track,full,false,true,0,0,0,"PROF"
+"Gui, Liangyan",research,assistant,true,false,145329.6,145329.6,1,"RES ASST PROF"
+"Gunter, Carl",tenure_track,full,true,false,243984,246423.84,1,"PROF"
+"Gunter, Elsa",teaching,senior_lecturer,true,false,189060,193599,1,"SR LECTURER"
+"Guo, Yue",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Gupta, Indranil",tenure_track,full,true,false,212160,214281.6,1,"PROF"
+"Gupta, Saurabh",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Hakkani Tur, Dilek",tenure_track,full,true,false,244800,247248,1,"PROF"
+"Han, Jiawei",tenure_track,full,true,false,265838,268496.38,1,"PROF"
+"Har-Peled, Sariel",tenure_track,full,true,false,217464,219638.64,1,"PROF"
+"Hart, John C",tenure_track,full,true,false,209845,211943.45,1,"PROF"
+"Hasegawa-Johnson, Mark Allan",tenure_track,full,false,true,0,0,0,"PROF"
+"Hauser, Kristoffer Karl",tenure_track,full,true,false,208845,210933.45,1,"PROF"
+"He, Jing Rui",tenure_track,full,false,true,0,0,0,"PROF"
+"Heath, David Anthony",tenure_track,assistant,true,false,143208,146788.2,1,"ASST PROF"
+"Herman, Geoffrey Lindsay",teaching,full,true,false,175424,179999.6,1,"TCH PROF"
+"Hockenmaier, Julia Constanze",tenure_track,full,true,false,207346,209419.46,1,"PROF"
+"Hoiem, Derek W",tenure_track,full,true,false,207346,209419.46,1,"PROF"
+"Hu, Yih-Chun",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Huang, Jian",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Huang, Yun",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Iyer, Ravishankar K",tenure_track,full,false,true,0,0,0,"PROF"
+"Jabbarvand Behrouz, Reyhaneh",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Jacobson, Sheldon Howard",tenure_track,full,true,false,221357,223570.57,1,"PROF"
+"Ji, Heng",tenure_track,full,true,false,222233,226677.66,1,"PROF"
+"Jiang, Nan",tenure_track,associate,true,false,175000,176750,1,"ASSOC PROF"
+"Kang, Daniel",tenure_track,assistant,true,false,141200,144730,1,"ASST PROF"
+"Katz, Daniel S",research,associate,false,true,0,0,0,"RES ASSOC PROF"
+"Khurana, Dakshita",tenure_track,associate,true,false,175000,176750,1,"ASSOC PROF"
+"Kim, Minje",tenure_track,associate,true,false,173400,175134,1,"ASSOC PROF"
+"Kim, Nam Sung",tenure_track,full,false,true,0,0,0,"PROF"
+"Kindratenko, Volodymyr",research,associate,false,true,0,0,0,"RES ASSOC PROF"
+"Kloeckner, Andreas Paul Eberhard",tenure_track,associate,true,false,176000,177760,1,"ASSOC PROF"
+"Kramer, William T",research,full,false,true,59630.71,60227.02,0.2,"RES PROF"
+"Kravets, Robin Hillary",tenure_track,full,true,false,206856,208924.56,1,"PROF"
+"Kumar, Rakesh",tenure_track,full,false,true,0,0,0,"PROF"
+"Kumar, Ranjitha",tenure_track,associate,true,false,175500,177255,1,"ASSOC PROF"
+"Lai, Fan",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Lane, H Chad",tenure_track,full,false,true,0,0,0,"PROF"
+"Lavalle, Steven M",tenure_track,full,false,true,17715,18000.15,0.1,"PROF"
+"Lazebnik, Svetlana",tenure_track,full,true,false,206856,208924.56,1,"PROF"
+"Levchenko, Kirill Igorevich",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Lewis, Colleen Marie",tenure_track,associate,true,false,175500,177255,1,"ASSOC PROF"
+"Li, Bo",tenure_track,associate,true,false,153600,155136,1,"ASSOC PROF"
+"Liu, Ge",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Liu, Hongye",teaching,assistant,true,false,145329.6,148962.84,1,"TCH ASST PROF"
+"Liu, Yaoyao",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Lourentzou, Ismini",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Ludaescher, Bertram",tenure_track,full,false,true,0,0,0,"PROF"
+"Lumetta, Steven Sam",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Luo, Ning",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Ma, Jiaqi",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Marinov, Darko",tenure_track,full,true,false,212670,214796.7,1,"PROF"
+"Mashfiqui Rabbi Shuvo, Mohammod",research,assistant,true,false,145000,145000,1,"RES ASST PROF"
+"Mehta, Ruta",tenure_track,associate,true,false,175000,176750,1,"ASSOC PROF"
+"Mendis, Thirimadura Charith Yasendra",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Meseguer, Jose",tenure_track,full,true,false,230634,232940.34,1,"PROF"
+"Milenkovic, Olgica",tenure_track,full,false,true,0,0,0,"PROF"
+"Misailovic, Sasa",tenure_track,associate,true,false,175250,177002.5,1,"ASSOC PROF"
+"Mitra, Sayan",tenure_track,full,false,true,0,0,0,"PROF"
+"Mittal, Radhika",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Moses, William Steven",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Nahrstedt, Klara",tenure_track,full,true,false,289224,297900,1,"PROF"
+"Ng, Yee Man",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Nicol, David Malcolm",tenure_track,full,false,true,0,0,0,"PROF"
+"Nowak, Michael",teaching,assistant,true,false,145329.6,148962.84,1,"TCH ASST PROF"
+"Olson, Luke",tenure_track,full,true,false,212160,214281.6,1,"PROF"
+"Park, Yongjoo",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Parthasarathy, Madhusudan",tenure_track,full,true,false,201552,203567.52,1,"PROF"
+"Peng, Hao",tenure_track,assistant,true,false,141200,144730,1,"ASST PROF"
+"Raginsky, Maxim",tenure_track,full,false,true,0,0,0,"PROF"
+"Rauchwerger, Lawrence",tenure_track,full,true,false,229577,231872.77,1,"PROF"
+"Ray Chaudhury, Bhaskar",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Rehg, James Matthew",tenure_track,full,false,true,186966,188835.66,0.75,"PROF"
+"Reid, John F",research,full,false,true,121992,125041.8,0.5,"RES PROF"
+"Ren, Ling",tenure_track,associate,true,false,146390,164999.9,1,"ASSOC PROF"
+"Ringer, Talia Lily",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Robinson, Gene E",tenure_track,full,false,true,0,0,0,"PROF"
+"Robles Granda, Pablo D",teaching,assistant,true,false,140100,143602.5,1,"TEACHING ASST PROF"
+"Rosu, Grigore",tenure_track,full,true,false,206856,208924.56,1,"PROF"
+"Roy Choudhury, Romit",tenure_track,full,false,true,0,0,0,"PROF"
+"Saha, Koustuv",tenure_track,assistant,true,false,142800,146370,1,"ASST PROF"
+"Schatz, Jule",teaching,assistant,true,false,140100,143602.5,1,"TCH ASST PROF"
+"Schwing, Alexander Gerhard",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Seo, JooYoung",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Sha, Lui Raymond",tenure_track,full,true,false,265200,267852,1,"PROF"
+"Shaffer, Eric Gene",teaching,associate,true,false,161241.6,165999.64,1,"TCH ASSOC PROF"
+"Shomorony, Ilan",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Shultz, Craig Daniel",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Silva, Mariana Teixeira",teaching,associate,true,false,161241.6,165999.64,1,"TCH ASSOC PROF"
+"Singh, Gagandeep",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Sinha, Makrand",tenure_track,assistant,true,false,141200,144730,1,"ASST PROF"
+"Solomon, Brad R",teaching,assistant,true,false,145329.6,148962.84,1,"TCH ASST PROF"
+"Solomonik, Edgar Vadimovich",tenure_track,associate,true,false,175250.01,177002.51,1,"ASSOC PROF"
+"Soltani, Ella",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Srikant, Rayadurgam",tenure_track,full,false,true,0,0,0,"PROF"
+"Sterman, Sarah Gimbert",research,assistant,true,false,143208,146788.2,1,"RES ASST PROF"
+"Sultana, Sharifa",tenure_track,assistant,true,false,141200,144730,1,"ASST PROF"
+"Sun, Jimeng",tenure_track,full,false,true,146762,148229.62,0.67,"PROF"
+"Sundaram, Hari",tenure_track,full,true,false,196248,198210.48,1,"PROF"
+"Tahboub, Ruby",teaching,assistant,true,false,143208,146788.2,1,"TCH ASST PROF"
+"Tissenbaum, Michael Benjamin",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Tong, Hanghang",tenure_track,full,true,false,190000,191900,1,"PROF"
+"Torrellas, Josep",tenure_track,full,true,false,250000,252500,1,"PROF"
+"Tur, Gokhan",research,full,true,false,242400,248460,1,"RES PROF"
+"Twidale, Michael Bernard",tenure_track,full,false,true,0,0,0,"PROF"
+"Tychonievich, Luther A",teaching,associate,true,false,164424,168534.6,1,"TCH ASSOC PROF"
+"Varshney, Lav R",tenure_track,associate,false,true,0,0,0,"ASSOC PROF"
+"Vasisht, Deepak",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Viswanathan, Mahesh",tenure_track,full,true,false,221700,223842,1,"PROF"
+"Vlasov, Yurii A",tenure_track,full,false,true,0,0,0,"PROF"
+"Wang, Dong",tenure_track,full,false,true,0,0,0,"PROF"
+"Wang, Gang",tenure_track,associate,true,false,175000,176750,1,"ASSOC PROF"
+"Wang, Shaowen",tenure_track,full,false,true,0,0,0,"PROF"
+"Wang, Shenlong",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Wang, Yang",tenure_track,full,false,true,0,0,0,"PROF"
+"Wang, Yuxiong",tenure_track,assistant,true,false,145330,148963.25,1,"ASST PROF"
+"Warnow, Tandy",tenure_track,full,true,false,273338,275996.38,1,"PROF"
+"Williams, Tiffani L",teaching,full,true,false,196560,201099,1,"TCH PROF"
+"Woodley, Michael Joseph",clinical,assistant,true,false,90168,92422.2,1,"CLIN ASST PROF"
+"Wooldridge, Abigail",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Xu, Tianyin",tenure_track,associate,true,false,147451,164999.51,1,"ASSOC PROF"
+"Xu, Yunzong",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Yan, Yu",tenure_track,assistant,true,false,150000,151500,1,"ASST PROF"
+"You, Jiaxuan",tenure_track,assistant,true,false,140000,143500,1,"ASST PROF"
+"Yuan, Wenzhen",tenure_track,assistant,true,false,145860,149506.5,1,"ASST PROF"
+"Yuile, Adam Bates",tenure_track,associate,true,false,175250,177002.5,1,"ASSOC PROF"
+"Zhai, Chengxiang",tenure_track,full,true,false,223575,229981.75,1,"PROF"
+"Zhang, Lingming",tenure_track,associate,true,false,175500,177255,1,"ASSOC PROF"
+"Zhang, Minjia",tenure_track,assistant,true,false,147900,151597.5,1,"ASST PROF"
+"Zhang, Tong",tenure_track,full,true,false,244800,247248,1,"PROF"
+"Zhang, Yupeng",tenure_track,assistant,false,true,0,0,0,"ASST PROF"
+"Zhao, Han",tenure_track,assistant,true,false,144269,147875.73,1,"ASST PROF"
+"Zilles, Craig",tenure_track,full,true,false,196248,198210.48,1,"PROF"
