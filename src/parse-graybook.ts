@@ -14,6 +14,102 @@ const HTML_FILE = resolve(import.meta.dir, "../uiuc-graybook.html");
 const OUTPUT_JSON = resolve(import.meta.dir, "../cs_faculty_salaries.json");
 const OUTPUT_CSV = resolve(import.meta.dir, "../cs_faculty_salaries.csv");
 
+// Public faculty list from https://siebelschool.illinois.edu/about/people/all-faculty/department-faculty
+const PUBLIC_FACULTY = new Set([
+  "Tarek Abdelzaher", "Rachel Adler", "Sarita V. Adve", "Vikram Adve", "Gul A. Agha",
+  "Narendra Ahuja", "Ram Alagappan", "Abdussalam Alawini", "Nancy M. Amato", "Lawrence Angrave",
+  "Tal August", "Brian Bailey", "Arindam Banerjee", "Adam Bates", "Mattox Beckman",
+  "Matthew Caesar", "George Chacko", "Geoffrey Challen", "Timothy Moon-Yew Chan",
+  "Eshwar Chandrasekharan", "Kevin Chenchuan Chang", "Chandra Chekuri", "Girish Chowdhary",
+  "Camille Cobb", "Katie Cunningham", "David M. Dalpiaz", "Mohammed El-Kebir", "Jeff Erickson",
+  "Carl Evans", "Wade Fagen-Ulmschneider", "Reza Farivar", "Paul Fischer", "Margaret M. Fleck",
+  "Michael A. Forbes", "David Forsyth", "Max Fowler", "Emily Kyle Fox", "Aishwarya Ganesan",
+  "Yael Gertner", "Saugata Ghose", "Brighten Godfrey", "Daniel Gonzalez Cedre",
+  "Fernando Granha Jeronimo", "Bill Gropp", "Liangyan Gui", "Carl Gunter", "Elsa Gunter",
+  "Indranil Gupta", "Dilek Hakkani-Tur", "Jiawei Han", "Sariel Har-Peled", "John C. Hart",
+  "Kris Hauser", "David Heath", "Geoffrey Lindsay Herman", "Julia Hockenmaier", "Derek Hoiem",
+  "Charles L. Isbell, Jr.", "Reyhaneh Jabbarvand", "Sheldon H. Jacobson", "Heng Ji", "Nan Jiang",
+  "Laxmikant V. Kale", "Daniel Kang", "Dominic Kao", "Daniel S. Katz", "Ram Kesavan",
+  "Dakshita Khurana", "Halil Kilicoglu", "Minje Kim", "Volodymyr Kindratenko",
+  "Andreas Paul Eberhard Kloeckner", "Bill Kramer", "Robin Kravets", "Ranjitha Kumar", "Fan Lai",
+  "Steven M. LaValle", "Svetlana Lazebnik", "Colleen M. Lewis", "Bo Li", "Xiaojing Liao",
+  "Ge Liu", "Hongye Liu", "Yiling Lou", "Darko Marinov", "Livingston McPherson", "Ruta Mehta",
+  "Charith Mendis", "Jose Meseguer", "Sasa Misailovic", "Marco Morales Aguirre", "William S. Moses",
+  "Klara Nahrstedt", "Michael Nowak", "Luke Olson", "David Padua", "Yongjoo Park",
+  "Madhusudan Parthasarathy", "Hao Peng", "Mashfiqui Rabbi", "Lawrence Rauchwerger", "Jim Rehg",
+  "John F. Reid", "Ling Ren", "Talia Ringer", "Pablo D. Robles Granda", "Grigore Rosu",
+  "Koustuv Saha", "Jule Schatz", "Ryan Senior Cunningham", "Lui Sha", "Eric Shaffer",
+  "Mariana Silva", "Gagandeep Singh", "Makrand Sinha", "Marc Snir", "Brad R. Solomon",
+  "Edgar Solomonik", "Elahe Soltanaghai", "Harsha Srimath Tirumala", "Sarah Gimbert Sterman",
+  "Sharifa Sultana", "Jimeng Sun", "Hari Sundaram", "Ruby Tahboub", "Nishil Talati",
+  "Hanghang Tong", "Josep Torrellas", "Gokhan Tur", "Luther Tychonievich", "Deepak Vasisht",
+  "Mahesh Viswanathan", "Gang Wang", "Ge (Tiffany) Wang", "Shenlong Wang", "Yuxiong Wang",
+  "Tandy Warnow", "Tiffani L. Williams", "Michael Joseph Woodley", "Luyi Xing", "Tianyin Xu",
+  "Francis Yan", "Jiaxuan You", "Wenzhen Yuan", "ChengXiang Zhai", "Lingming Zhang",
+  "Minjia Zhang", "Tong Zhang", "Han Zhao", "Shuang Zhao", "Sihai Dave Zhao", "Craig Zilles",
+]);
+
+// Manual mappings for Gray Book names that don't match public list exactly (nicknames, etc.)
+const GRAY_BOOK_TO_PUBLIC: Record<string, string | null> = {
+  "Evans, Graham Carl": "Carl Evans",
+  "Godfrey, Philip B": "Brighten Godfrey",
+  "Gropp, William D": "Bill Gropp",
+  "Kramer, William T": "Bill Kramer",
+  "Rehg, James Matthew": "Jim Rehg",
+  "Mendis, Thirimadura Charith Yasendra": "Charith Mendis",
+  "Jabbarvand Behrouz, Reyhaneh": "Reyhaneh Jabbarvand",
+  "Hakkani Tur, Dilek": "Dilek Hakkani-Tur",
+  "Granha Jeronimo, Fernando": "Fernando Granha Jeronimo",
+  "Robles Granda, Pablo D": "Pablo D. Robles Granda",
+  "Mashfiqui Rabbi Shuvo, Mohammod": "Mashfiqui Rabbi",
+  "Yuile, Adam Bates": "Adam Bates",
+  // Explicitly exclude these (not on public list)
+  "Yan, Yu": null,
+  "Soltani, Ella": null,
+};
+
+// Build lookup by last name for fuzzy matching
+const PUBLIC_BY_LAST = new Map<string, string[]>();
+for (const name of PUBLIC_FACULTY) {
+  const parts = name.split(" ");
+  let last = parts[parts.length - 1].toLowerCase();
+  if (last === "jr." && parts.length > 1) {
+    last = parts[parts.length - 2].toLowerCase();
+  }
+  if (!PUBLIC_BY_LAST.has(last)) {
+    PUBLIC_BY_LAST.set(last, []);
+  }
+  PUBLIC_BY_LAST.get(last)!.push(name);
+}
+
+function isPublicFaculty(grayBookName: string): boolean {
+  // Check manual mapping first
+  if (grayBookName in GRAY_BOOK_TO_PUBLIC) {
+    return GRAY_BOOK_TO_PUBLIC[grayBookName] !== null;
+  }
+
+  // Parse Gray Book name (format: "Last, First Middle")
+  const parts = grayBookName.split(",");
+  if (parts.length < 2) return false;
+
+  const last = parts[0].trim().toLowerCase();
+  const firstParts = parts[1].trim().split(" ");
+  const first = firstParts[0]?.toLowerCase() || "";
+
+  // Check if last name exists in public list
+  const matches = PUBLIC_BY_LAST.get(last);
+  if (matches) {
+    for (const pubName of matches) {
+      const pubFirst = pubName.split(" ")[0].toLowerCase();
+      // Match first 3 characters of first name
+      if (first.slice(0, 3) === pubFirst.slice(0, 3) || pubFirst.slice(0, 3) === first.slice(0, 3)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
 function parseSalary(salaryStr: string): number {
   const cleaned = salaryStr.replace(/[$,]/g, "").trim();
   return parseFloat(cleaned) || 0;
@@ -245,12 +341,30 @@ function main() {
 
   // Process and filter faculty
   const allFaculty = csFaculty.map(processFaculty);
-  const facultyOnly = allFaculty.filter((f) => {
+
+  // Filter 1: Must have faculty employee class (not staff)
+  const facultyClass = allFaculty.filter((f) => {
     const primary = getPrimaryPosition(f.positions);
     return primary && ["AA", "AB", "AL", "AM"].includes(primary.emplClass);
   });
 
-  console.log(`Faculty members (excluding staff): ${facultyOnly.length}`);
+  console.log(`Faculty members (excluding staff): ${facultyClass.length}`);
+
+  // Filter 2: Must be on public faculty list AND have salary > 0
+  const facultyOnly = facultyClass.filter((f) => {
+    if (!isPublicFaculty(f.name)) {
+      if (f.totalPresentSalary > 0) {
+        console.log(`  Excluding (not on public list): ${f.name}`);
+      }
+      return false;
+    }
+    if (f.totalPresentSalary === 0) {
+      return false; // Joint appointment with no CS salary
+    }
+    return true;
+  });
+
+  console.log(`Public faculty with salary: ${facultyOnly.length}`);
 
   // Categorize
   const teaching = facultyOnly.filter((f) => f.facultyType === "teaching");

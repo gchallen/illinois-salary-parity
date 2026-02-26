@@ -1,12 +1,12 @@
 {
   "department": "434 - Siebel School Comp &amp; Data Sci",
   "summary": {
-    "totalFaculty": 191,
+    "totalFaculty": 125,
     "teachingTrack": 23,
     "teachingTrackFulltime": 23,
-    "tenureTrack": 158,
-    "tenureTrackFulltime": 91,
-    "research": 8,
+    "tenureTrack": 94,
+    "tenureTrackFulltime": 89,
+    "research": 6,
     "clinical": 2
   },
   "faculty": [
@@ -70,48 +70,6 @@
           "proposedFte": 1,
           "presentSalary": 244800,
           "proposedSalary": 247248
-        }
-      ]
-    },
-    {
-      "name": "Agarwal, Saksham",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Alabi, Daniel Gbenga",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -184,27 +142,6 @@
           "proposedFte": 1,
           "presentSalary": 315762,
           "proposedSalary": 320809.62
-        }
-      ]
-    },
-    {
-      "name": "Anastasio, Mark A",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -293,27 +230,6 @@
       ]
     },
     {
-      "name": "Bashir, Masooda N",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Beckman, Mattox Alan",
       "facultyType": "teaching",
       "rank": "associate",
@@ -331,111 +247,6 @@
           "proposedFte": 1,
           "presentSalary": 160138.55,
           "proposedSalary": 165783.01
-        }
-      ]
-    },
-    {
-      "name": "Bhat, Suma Pallathadka",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Blake, Catherine Lesley",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Borisov, Nikita",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Bretl, Timothy Wolfe",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Brunner, Robert J",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -503,48 +314,6 @@
       ]
     },
     {
-      "name": "Chandrasekaran, Karthekeyan",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Chandrasekaran, Varun",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Chandrasekharan, Eshwar",
       "facultyType": "tenure_track",
       "rank": "assistant",
@@ -604,48 +373,6 @@
           "proposedFte": 1,
           "presentSalary": 222768,
           "proposedSalary": 224995.68
-        }
-      ]
-    },
-    {
-      "name": "Chen, Deming",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Chitambar, Eric Anil",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -751,69 +478,6 @@
           "proposedFte": 1,
           "presentSalary": 160050,
           "proposedSalary": 165283.25
-        }
-      ]
-    },
-    {
-      "name": "Do, Minh N",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Driggs-Campbell, Katherine Rose",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Dullerud, Geir E",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1058,27 +722,6 @@
       ]
     },
     {
-      "name": "Garg, Jugal",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Gertner, Yael",
       "facultyType": "teaching",
       "rank": "associate",
@@ -1142,27 +785,6 @@
       ]
     },
     {
-      "name": "Golparvar Fard, Mani",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Granha Jeronimo, Fernando",
       "facultyType": "tenure_track",
       "rank": "assistant",
@@ -1201,48 +823,6 @@
           "proposedFte": 1,
           "presentSalary": 301451,
           "proposedSalary": 305972.77
-        }
-      ]
-    },
-    {
-      "name": "Grosser, Benjamin Adam",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Guan, Kaiyu",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1328,27 +908,6 @@
       ]
     },
     {
-      "name": "Guo, Yue",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Gupta, Indranil",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -1366,27 +925,6 @@
           "proposedFte": 1,
           "presentSalary": 212160,
           "proposedSalary": 214281.6
-        }
-      ]
-    },
-    {
-      "name": "Gupta, Saurabh",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1475,27 +1013,6 @@
       ]
     },
     {
-      "name": "Hasegawa-Johnson, Mark Allan",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Hauser, Kristoffer Karl",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -1513,27 +1030,6 @@
           "proposedFte": 1,
           "presentSalary": 208845,
           "proposedSalary": 210933.45
-        }
-      ]
-    },
-    {
-      "name": "He, Jing Rui",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1618,90 +1114,6 @@
           "proposedFte": 1,
           "presentSalary": 207346,
           "proposedSalary": 209419.46
-        }
-      ]
-    },
-    {
-      "name": "Hu, Yih-Chun",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Huang, Jian",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Huang, Yun",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Iyer, Ravishankar K",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1811,27 +1223,6 @@
       ]
     },
     {
-      "name": "Katz, Daniel S",
-      "facultyType": "research",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "RES ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Khurana, Dakshita",
       "facultyType": "tenure_track",
       "rank": "associate",
@@ -1870,48 +1261,6 @@
           "proposedFte": 1,
           "presentSalary": 173400,
           "proposedSalary": 175134
-        }
-      ]
-    },
-    {
-      "name": "Kim, Nam Sung",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Kindratenko, Volodymyr",
-      "facultyType": "research",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "RES ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -1979,27 +1328,6 @@
       ]
     },
     {
-      "name": "Kumar, Rakesh",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Kumar, Ranjitha",
       "facultyType": "tenure_track",
       "rank": "associate",
@@ -2042,27 +1370,6 @@
       ]
     },
     {
-      "name": "Lane, H Chad",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Lavalle, Steven M",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -2101,27 +1408,6 @@
           "proposedFte": 1,
           "presentSalary": 206856,
           "proposedSalary": 208924.56
-        }
-      ]
-    },
-    {
-      "name": "Levchenko, Kirill Igorevich",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2206,132 +1492,6 @@
           "proposedFte": 1,
           "presentSalary": 145329.6,
           "proposedSalary": 148962.84
-        }
-      ]
-    },
-    {
-      "name": "Liu, Yaoyao",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Lourentzou, Ismini",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Ludaescher, Bertram",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Lumetta, Steven Sam",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Luo, Ning",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Ma, Jiaqi",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2441,27 +1601,6 @@
       ]
     },
     {
-      "name": "Milenkovic, Olgica",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Misailovic, Sasa",
       "facultyType": "tenure_track",
       "rank": "associate",
@@ -2479,48 +1618,6 @@
           "proposedFte": 1,
           "presentSalary": 175250,
           "proposedSalary": 177002.5
-        }
-      ]
-    },
-    {
-      "name": "Mitra, Sayan",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Mittal, Radhika",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2563,48 +1660,6 @@
           "proposedFte": 1,
           "presentSalary": 289224,
           "proposedSalary": 297900
-        }
-      ]
-    },
-    {
-      "name": "Ng, Yee Man",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Nicol, David Malcolm",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2723,27 +1778,6 @@
       ]
     },
     {
-      "name": "Raginsky, Maxim",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Rauchwerger, Lawrence",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -2761,27 +1795,6 @@
           "proposedFte": 1,
           "presentSalary": 229577,
           "proposedSalary": 231872.77
-        }
-      ]
-    },
-    {
-      "name": "Ray Chaudhury, Bhaskar",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2870,27 +1883,6 @@
       ]
     },
     {
-      "name": "Robinson, Gene E",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Robles Granda, Pablo D",
       "facultyType": "teaching",
       "rank": "assistant",
@@ -2929,27 +1921,6 @@
           "proposedFte": 1,
           "presentSalary": 206856,
           "proposedSalary": 208924.56
-        }
-      ]
-    },
-    {
-      "name": "Roy Choudhury, Romit",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -2996,48 +1967,6 @@
       ]
     },
     {
-      "name": "Schwing, Alexander Gerhard",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Seo, JooYoung",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Sha, Lui Raymond",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -3076,48 +2005,6 @@
           "proposedFte": 1,
           "presentSalary": 161241.6,
           "proposedSalary": 165999.64
-        }
-      ]
-    },
-    {
-      "name": "Shomorony, Ilan",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Shultz, Craig Daniel",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -3227,48 +2114,6 @@
       ]
     },
     {
-      "name": "Soltani, Ella",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": true,
-      "isJointAppointment": false,
-      "totalPresentSalary": 144269,
-      "totalProposedSalary": 147875.73,
-      "totalPresentFte": 1,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "P",
-          "emplClass": "AA",
-          "presentFte": 1,
-          "proposedFte": 1,
-          "presentSalary": 144269,
-          "proposedSalary": 147875.73
-        }
-      ]
-    },
-    {
-      "name": "Srikant, Rayadurgam",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Sterman, Sarah Gimbert",
       "facultyType": "research",
       "rank": "assistant",
@@ -3374,27 +2219,6 @@
       ]
     },
     {
-      "name": "Tissenbaum, Michael Benjamin",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Tong, Hanghang",
       "facultyType": "tenure_track",
       "rank": "full",
@@ -3458,27 +2282,6 @@
       ]
     },
     {
-      "name": "Twidale, Michael Bernard",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Tychonievich, Luther A",
       "facultyType": "teaching",
       "rank": "associate",
@@ -3496,27 +2299,6 @@
           "proposedFte": 1,
           "presentSalary": 164424,
           "proposedSalary": 168534.6
-        }
-      ]
-    },
-    {
-      "name": "Varshney, Lav R",
-      "facultyType": "tenure_track",
-      "rank": "associate",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASSOC PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -3572,48 +2354,6 @@
       ]
     },
     {
-      "name": "Vlasov, Yurii A",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Wang, Dong",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Wang, Gang",
       "facultyType": "tenure_track",
       "rank": "associate",
@@ -3635,27 +2375,6 @@
       ]
     },
     {
-      "name": "Wang, Shaowen",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Wang, Shenlong",
       "facultyType": "tenure_track",
       "rank": "assistant",
@@ -3673,27 +2392,6 @@
           "proposedFte": 1,
           "presentSalary": 144269,
           "proposedSalary": 147875.73
-        }
-      ]
-    },
-    {
-      "name": "Wang, Yang",
-      "facultyType": "tenure_track",
-      "rank": "full",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
@@ -3809,27 +2507,6 @@
       ]
     },
     {
-      "name": "Wooldridge, Abigail",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
       "name": "Xu, Tianyin",
       "facultyType": "tenure_track",
       "rank": "associate",
@@ -3847,48 +2524,6 @@
           "proposedFte": 1,
           "presentSalary": 147451,
           "proposedSalary": 164999.51
-        }
-      ]
-    },
-    {
-      "name": "Xu, Yunzong",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
-        }
-      ]
-    },
-    {
-      "name": "Yan, Yu",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": true,
-      "isJointAppointment": false,
-      "totalPresentSalary": 150000,
-      "totalProposedSalary": 151500,
-      "totalPresentFte": 1,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "P",
-          "emplClass": "AA",
-          "presentFte": 1,
-          "proposedFte": 1,
-          "presentSalary": 150000,
-          "proposedSalary": 151500
         }
       ]
     },
@@ -4045,27 +2680,6 @@
           "proposedFte": 1,
           "presentSalary": 244800,
           "proposedSalary": 247248
-        }
-      ]
-    },
-    {
-      "name": "Zhang, Yupeng",
-      "facultyType": "tenure_track",
-      "rank": "assistant",
-      "isFullTimeHere": false,
-      "isJointAppointment": true,
-      "totalPresentSalary": 0,
-      "totalProposedSalary": 0,
-      "totalPresentFte": 0,
-      "positions": [
-        {
-          "title": "ASST PROF",
-          "tenureCode": "",
-          "emplClass": "AA",
-          "presentFte": 0,
-          "proposedFte": 0,
-          "presentSalary": 0,
-          "proposedSalary": 0
         }
       ]
     },
