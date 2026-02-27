@@ -66,6 +66,38 @@
             font-size: 0.9em;
             margin-top: 5px;
         }
+        .methodology {
+            background: white;
+            border-radius: 8px;
+            padding: 25px 30px;
+            margin-top: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        .methodology h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .methodology h3 {
+            margin: 20px 0 10px 0;
+            font-size: 1em;
+            color: #555;
+        }
+        .methodology p, .methodology ul {
+            margin: 10px 0;
+            color: #555;
+        }
+        .methodology ul {
+            padding-left: 20px;
+        }
+        .methodology li {
+            margin: 5px 0;
+        }
+        .methodology a {
+            color: #3b82f6;
+        }
         .footer {
             margin-top: 30px;
             text-align: center;
@@ -88,9 +120,39 @@
         <!-- Will be populated by JavaScript with median-based calculations -->
     </div>
 
+    <div class="methodology">
+        <h2>Methodology</h2>
+
+        <h3>Data Source</h3>
+        <p>Salary data was extracted from the <a href="https://www.bot.uillinois.edu/resources/gray_book">University of Illinois Gray Book 2025-26</a>,
+        which contains proposed salary information for all university employees as approved by the Board of Trustees.</p>
+
+        <h3>Faculty Selection</h3>
+        <p>The analysis includes only faculty who meet all of the following criteria:</p>
+        <ul>
+            <li>Listed on the <a href="https://siebelschool.illinois.edu/about/people/all-faculty/department-faculty">Siebel School public faculty directory</a></li>
+            <li>Full-time appointment (1.0 FTE)</li>
+            <li>Primary appointment in the Department of Computer Science</li>
+            <li>Not a joint appointment with another department</li>
+        </ul>
+        <p>This conservative approach ensures we compare faculty with similar appointment structures. Clinical faculty, research faculty, and senior lecturers were excluded from the analysis.</p>
+
+        <h3>Classification</h3>
+        <ul>
+            <li><strong>Teaching Faculty:</strong> Faculty with titles containing "Teaching" or "TCH" (Teaching Assistant Professor, Teaching Associate Professor, Teaching Professor)</li>
+            <li><strong>Research Faculty:</strong> Tenure-track faculty (Assistant Professor, Associate Professor, Professor)</li>
+        </ul>
+
+        <h3>Gap Calculation</h3>
+        <p>The salary gap is calculated as: <code>(Teaching Median - Research Median) / Research Median × 100%</code></p>
+        <p>Negative values indicate teaching faculty earn less than research faculty at the same rank. Medians are used rather than means to reduce the influence of outliers.</p>
+
+        <h3>Source Code</h3>
+        <p>The data processing scripts and this visualization are available at <a href="https://github.com/gchallen/illinois-salary-parity">github.com/gchallen/illinois-salary-parity</a>.</p>
+    </div>
+
     <div class="footer">
         <p>Source: <a href="https://www.bot.uillinois.edu/resources/gray_book">University of Illinois Gray Book 2025-26</a></p>
-        <p>Data shows primary faculty position salary for full-time, publicly-listed faculty. Excludes joint appointments and administrative stipends.</p>
     </div>
 
     <script>
