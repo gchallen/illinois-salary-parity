@@ -202,10 +202,10 @@
                 : (sorted[mid - 1] + sorted[mid]) / 2;
         });
 
-        // Calculate gap percentages
-        const assistantGap = ((medians['Tenure-Track Assistant'] - medians['Teaching Assistant']) / medians['Teaching Assistant'] * 100);
-        const associateGap = ((medians['Tenure-Track Associate'] - medians['Teaching Associate']) / medians['Teaching Associate'] * 100);
-        const fullGap = ((medians['Tenure-Track Full'] - medians['Teaching Full']) / medians['Teaching Full'] * 100);
+        // Calculate gap percentages (negative = teaching paid less than research)
+        const assistantGap = ((medians['Teaching Assistant'] - medians['Tenure-Track Assistant']) / medians['Tenure-Track Assistant'] * 100);
+        const associateGap = ((medians['Teaching Associate'] - medians['Tenure-Track Associate']) / medians['Tenure-Track Associate'] * 100);
+        const fullGap = ((medians['Teaching Full'] - medians['Tenure-Track Full']) / medians['Tenure-Track Full'] * 100);
 
         const layout = {
             showlegend: true,
@@ -238,19 +238,19 @@
                 // Gap labels (calculated from medians)
                 {
                     x: 1, y: 152000,
-                    text: Math.abs(assistantGap) < 1 ? '<b>Parity</b>' : `<b>${assistantGap.toFixed(0)}% gap</b>`,
+                    text: Math.abs(assistantGap) < 1 ? '<b>Parity</b>' : `<b>${assistantGap.toFixed(0)}%</b>`,
                     showarrow: false,
                     font: { size: 12, color: '#22c55e' }
                 },
                 {
                     x: 3, y: 185000,
-                    text: `<b>${associateGap.toFixed(0)}% gap</b>`,
+                    text: `<b>${associateGap.toFixed(0)}%</b>`,
                     showarrow: false,
                     font: { size: 12, color: '#f59e0b' }
                 },
                 {
                     x: 5, y: 240000,
-                    text: `<b>${fullGap.toFixed(0)}% gap</b>`,
+                    text: `<b>${fullGap.toFixed(0)}%</b>`,
                     showarrow: false,
                     font: { size: 12, color: '#ef4444' }
                 },
@@ -336,14 +336,14 @@
 
         const summaryContainer = document.getElementById('summary-cards');
         gaps.forEach((g, i) => {
-            const gapPercent = ((g.tenure - g.teaching) / g.teaching * 100).toFixed(1);
+            const gapPercent = ((g.teaching - g.tenure) / g.tenure * 100).toFixed(1);
             const gapClass = i === 0 ? 'parity' : (i === 1 ? 'moderate' : 'significant');
             const detail = i === 0 ? 'Near-perfect parity' : (i === 1 ? 'Moderate gap emerges' : 'Significant disparity');
 
             summaryContainer.innerHTML += `
                 <div class="summary-card ${gapClass}">
                     <h3>${g.rank}</h3>
-                    <div class="gap">+${gapPercent}%</div>
+                    <div class="gap">${gapPercent}%</div>
                     <div class="detail">${detail}</div>
                 </div>
             `;
