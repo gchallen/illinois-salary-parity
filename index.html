@@ -111,8 +111,7 @@
 </head>
 <body>
     <h1>Salary Parity Gap Widens with Seniority</h1>
-    <p class="subtitle">Illinois Siebel School of Computing & Data Science: Teaching vs Research Faculty</p>
-    <p class="note" style="text-align: center; color: #888; font-size: 0.85em; margin-top: -20px; margin-bottom: 20px;">Note: Tenure-track faculty are labeled as research faculty</p>
+    <p class="subtitle">Illinois Siebel School of Computing & Data Science: Teaching vs Tenure-Track Faculty</p>
 
     <div id="chart"></div>
 
@@ -140,12 +139,12 @@
         <h3>Classification</h3>
         <ul>
             <li><strong>Teaching Faculty:</strong> Faculty with titles containing "Teaching" or "TCH" (Teaching Assistant Professor, Teaching Associate Professor, Teaching Professor)</li>
-            <li><strong>Research Faculty:</strong> Tenure-track faculty (Assistant Professor, Associate Professor, Professor)</li>
+            <li><strong>Tenure-Track Faculty:</strong> Assistant Professor, Associate Professor, Professor</li>
         </ul>
 
         <h3>Gap Calculation</h3>
-        <p>The salary gap is calculated as: <code>(Teaching Median - Research Median) / Research Median × 100%</code></p>
-        <p>Negative values indicate teaching faculty earn less than research faculty at the same rank. Medians are used rather than means to reduce the influence of outliers.</p>
+        <p>The salary gap is calculated as: <code>(Teaching Median - Tenure-Track Median) / Tenure-Track Median × 100%</code></p>
+        <p>Negative values indicate teaching faculty earn less than tenure-track faculty at the same rank. Medians are used rather than means to reduce the influence of outliers.</p>
 
         <h3>Source Code</h3>
         <p>The data processing scripts and this visualization are available at <a href="https://github.com/gchallen/illinois-salary-parity">github.com/gchallen/illinois-salary-parity</a>.</p>
@@ -207,9 +206,9 @@
             'Teaching Assistant': 'Teaching Asst',
             'Teaching Associate': 'Teaching Assoc',
             'Teaching Full': 'Teaching Full',
-            'Tenure-Track Assistant': 'Research Asst',
-            'Tenure-Track Associate': 'Research Assoc',
-            'Tenure-Track Full': 'Research Full'
+            'Tenure-Track Assistant': 'Tenure-Track Asst',
+            'Tenure-Track Associate': 'Tenure-Track Assoc',
+            'Tenure-Track Full': 'Tenure-Track Full'
         };
 
         // Create traces
@@ -234,23 +233,22 @@
             });
         });
 
-        // Research traces (orange) - second row
+        // Tenure-track traces (orange) - second row
         ['Tenure-Track Assistant', 'Tenure-Track Associate', 'Tenure-Track Full'].forEach(key => {
-            const displayName = key.replace('Tenure-Track', 'Research');
             traces.push({
                 x: groups[key].x,
                 y: groups[key].y,
                 mode: 'markers',
                 type: 'scatter',
                 name: legendLabels[key],
-                legendgroup: 'research',
+                legendgroup: 'tenure',
                 marker: {
                     color: '#f97316',
                     size: 10,
                     opacity: 0.7,
                     line: { color: '#c2410c', width: 1 }
                 },
-                hovertemplate: `${displayName}<br>$%{y:,.0f}<extra></extra>`
+                hovertemplate: `${key}<br>$%{y:,.0f}<extra></extra>`
             });
         });
 
@@ -341,11 +339,11 @@
                     font: { size: 9, color: '#3b82f6' },
                     xanchor: 'center'
                 },
-                // Median labels - Research (orange) - below dots
+                // Median labels - Tenure-Track (orange) - below dots
                 {
                     x: xPositions['Tenure-Track Assistant'],
                     y: 125000,
-                    text: `Research<br>Median<br>$${Math.round(medians['Tenure-Track Assistant']/1000)}K`,
+                    text: `Tenure-Track<br>Median<br>$${Math.round(medians['Tenure-Track Assistant']/1000)}K`,
                     showarrow: false,
                     font: { size: 9, color: '#f97316' },
                     xanchor: 'center'
@@ -353,7 +351,7 @@
                 {
                     x: xPositions['Tenure-Track Associate'],
                     y: 125000,
-                    text: `Research<br>Median<br>$${Math.round(medians['Tenure-Track Associate']/1000)}K`,
+                    text: `Tenure-Track<br>Median<br>$${Math.round(medians['Tenure-Track Associate']/1000)}K`,
                     showarrow: false,
                     font: { size: 9, color: '#f97316' },
                     xanchor: 'center'
@@ -361,7 +359,7 @@
                 {
                     x: xPositions['Tenure-Track Full'],
                     y: 125000,
-                    text: `Research<br>Median<br>$${Math.round(medians['Tenure-Track Full']/1000)}K`,
+                    text: `Tenure-Track<br>Median<br>$${Math.round(medians['Tenure-Track Full']/1000)}K`,
                     showarrow: false,
                     font: { size: 9, color: '#f97316' },
                     xanchor: 'center'
